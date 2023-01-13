@@ -26,6 +26,7 @@ export const HeroPage = () => {
                     <img
                         src={ `/assets/heroes/${ heroId }.jpg` }
                         alt={ hero.superhero }
+                        className="animate__animated animate__fadeInLeft"
                     />
                 </figure>
             </div>
